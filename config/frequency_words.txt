@@ -1,13 +1,16 @@
-/React|Vue|Svelte|TypeScript|WebAssembly|PWA|Vite|Micro‑frontends|Web Vitals/i => 前端
+/React|Vue|WebAssembly|微前端|浏览器/i => 前端
 
-/Twilio|MessageBird|Vonage|RCS|5G Messaging|GDPR|SIP|WebRTC/ => 云通信
+/Twilio|MessageBird|Vonage|RCS|5G Messaging|GDPR|SIP|WebRTC/i => 云通信
 
-/AI|免费|GPT‑4o|Claude 3|Llama 3|Stable Diffusion 3|Whisper|LangChain|Embeddings|Azure OpenAI/ => AI
+/(?i)(?=.*\b(?:免费|free)\b)(?=.*\b(?:GPT‑4o|Claude\s*3|Llama\s*3|Stable\s*Diffusion\s*3|Whisper|LangChain|Embeddings|Azure\s*OpenAI)\b)(?=.*\b(?:api|调用)\b)?.*/ => AI
++免费
 
-/Docker|Kubernetes|Helm|Argo CD|Prometheus|Grafana|OpenTelemetry|Ollama|vLLM/ => 开源部署/云原生
+/Docker|Kubernetes|Helm|Argo CD|Prometheus|Grafana|OpenTelemetry|Ollama|vLLM/i => 开源部署/云原生
 
-/Edge Computing|5G|eSIM|GDPR|PIPL|AI Act|Sustainable Tech|CPaaS M&A/ => 通信技术
+/Edge Computing|5G|eSIM|GDPR|PIPL|AI Act|Sustainable Tech|CPaaS M&A/i => 通信技术
 
-
-
-
+A股
+上证
+深证
++涨跌
+!预测
