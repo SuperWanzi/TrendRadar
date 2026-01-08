@@ -26,27 +26,29 @@ app:
 platforms:
   - id: "toutiao"
     name: "今日头条"
-  - id: "baidu"
-    name: "百度热搜"
   - id: "wallstreetcn-hot"
     name: "华尔街见闻"
   - id: "thepaper"
     name: "澎湃新闻"
   - id: "bilibili-hot-search"
-    name: "bilibili 热搜"
+    name: "B站热搜"
   - id: "cls-hot"
     name: "财联社热门"
   - id: "ifeng"
     name: "凤凰网"
-  - id: "tieba"
-    name: "贴吧"
   - id: "weibo"
     name: "微博"
   - id: "douyin"
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
-
+  - id: "coolapk"
+    name: "酷安"
+  - id: "sspai"
+    name: "少数派"
+  - id: "juejin"
+    name: "稀土掘金"
+    
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
@@ -122,8 +124,8 @@ rss:
 #    • 适用场景：避免重复信息干扰
 # ===============================================================
 report:
-  mode: "current"                     # 可选: daily | current | incremental
-  display_mode: "keyword"             # 可选: keyword | platform
+  mode: "daily"                     # 可选: daily | current | incremental
+  display_mode: "platform"             # 可选: keyword | platform
                                       # keyword: 按关键词分组显示（默认）
                                       # platform: 按平台/来源分组显示
   rank_threshold: 5                   # 排名高亮阈值
@@ -164,8 +166,8 @@ notification:
   #       如果想要精准的定时推送，建议使用 Docker 部署在个人服务器上
   push_window:
     enabled: false                    # 是否启用推送时间窗口控制
-    start: "20:00"                    # 开始时间（北京时间）
-    end: "22:00"                      # 结束时间（北京时间）
+    start: "09:00"                    # 开始时间（北京时间）
+    end: "18:00"                      # 结束时间（北京时间）
     once_per_day: true                # true=窗口内只推送一次，false=窗口内每次执行都推送
 
   # 推送渠道配置
