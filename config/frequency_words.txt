@@ -1,73 +1,13 @@
-/胖东来|于东来/ => 胖东来
+/React|Vue|Svelte|TypeScript|WebAssembly|PWA|Vite|Micro‑frontends|Web Vitals/i => 前端
 
-/DeepSeek|梁文锋/i => DeepSeek
+/Twilio|MessageBird|Vonage|RCS|5G Messaging|GDPR|SIP|WebRTC/ => 云通信
 
-/华为|鸿蒙|HarmonyOS|任正非/i => 华为
+/AI|免费|GPT‑4o|Claude 3|Llama 3|Stable Diffusion 3|Whisper|LangChain|Embeddings|Azure OpenAI/ => AI
 
-/比亚迪|王传福/ => 比亚迪
+/Docker|Kubernetes|Helm|Argo CD|Prometheus|Grafana|OpenTelemetry|Ollama|vLLM/ => 开源部署/云原生
 
-/大疆|\bDJI\b/i => 大疆
+/Edge Computing|5G|eSIM|GDPR|PIPL|AI Act|Sustainable Tech|CPaaS M&A/ => 通信技术
 
-/宇树|王兴兴/ => 宇树机器人
 
-/智元|灵犀|稚晖君|彭志辉/ => 智元机器人
 
-/黑神话|冯骥/ => 黑神话悟空
 
-/影之刃零|梁其伟/ => 影之刃零
-
-/哪吒|杨宇/ => 哪吒电影
-!车
-!餐
-
-/三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
-
-申奥
-
-/京东|刘强东/ => 京东
-
-/字节|bytedance|张一鸣/i => 字节跳动
-
-/特斯拉|马斯克/ => 特斯拉
-
-/微软|\bMicrosoft\b/i => 微软
-
-/英伟达|\bNVIDIA\b|黄仁勋/i => 英伟达
-
-/\bAMD\b/i => AMD
-
-/谷歌|\bgoogle\b|\bgemini\b|\bdeepMind\b/i => 谷歌
-
-/\bchatgpt\b|\bopenai\b|\bsora\b/i => OpenAI
-
-/\bclaude\b|Anthropic/i => Claude
-
-/\biphone\b|\bipad\b|\bmac\b|\bios\b/i => 苹果产品
-
-/(?<![a-zA-Z])ai(?![a-zA-Z])/i => AI 相关
-人工智能
-
-自动驾驶
-
-机器人
-
-国产
-中国
-
-美国
-日本
-韩国
-
-芯片
-光刻机
-
-科技
-
-核能
-
-水电站
-雅鲁藏布江
-
-新质生产力
-
-/月球|登月|火星|宇宙|飞船|航空/ => 航天航空
